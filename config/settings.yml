@@ -1,0 +1,4 @@
+available_locales: ["en", "vi"]
+default_locale: "en"
+client:
+  host: "localhost:3000"
