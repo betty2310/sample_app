@@ -1,0 +1,17 @@
+vi:
+  app_name: "SAMPLE APP"
+  title: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      label: "Trang chủ"
+      title: "Chào mừng đến với Sample App"
+      description: Đây là trang chủ của ứng dụng mẫu <a href="http://www.railstutorial.org/"> hướng dẫn Ruby on Rails</a>.
+      sign_up: "Đăng ký nèo!"
+    help:
+      title: "Hỗ trợ"
+      description: Nhận hướng dẫn về Ruby on Rails tại <a href="https://www.railstutorial.org/help">Rails Tutorial Help page</a>. Để nhận hướng dẫn về ứng dụng này, xem <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>.
+    layouts:
+      header:
+        home: "Trang chủ"
+        help: "Trợ giúp"
+        log_in: "Đăng nhập"
