@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  VALID_EMAIL_REGEX = Regexp.new(Settings.validate.user.email.format, true)
+  VALID_EMAIL_REGEX = Settings.validate.user.email.format
 
   validates :name, presence: true,
             length: {maximum: Settings.validate.user.name.length.max}
