@@ -1,7 +1,7 @@
 validate:
   user:
     email:
-      format: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+      format: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z
       length:
         max: 255
     name:
