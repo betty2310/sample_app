@@ -1,4 +1,17 @@
-available_locales: ["en", "vi"]
+validate:
+  user:
+    email:
+      format: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+      length:
+        max: 255
+    name:
+      length:
+        max: 50
+
+  # locales
+available_locales: [ "en", "vi" ]
 default_locale: "en"
+
+# client
 client:
   host: "localhost:3000"
