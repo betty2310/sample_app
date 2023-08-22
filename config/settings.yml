@@ -7,6 +7,14 @@ validate:
     name:
       length:
         max: 50
+    password:
+      length:
+        min: 6
+user:
+  gravatar:
+    size: 50
+pagy:
+  items: 10
 
   # locales
 available_locales: [ "en", "vi" ]

@@ -26,7 +26,16 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Password confirmation"
-  users: "Users"
+  users:
+    update:
+      success: "Profile updated"
+    logged_in_user:
+      danger: "Please log in"
+    correct_user:
+      danger: "You can not edit this account"
+    destroy:
+      success: "User deleted"
+      danger: "Delete fail!"
   log_in: "Login"
   new_user?: "New user?"
   sign_up_now!: "Sign up now!"
@@ -34,3 +43,12 @@ en:
   account: "Account"
   Log out: "Log out"
   Log in: "Log in"
+  remember_me: "Remember me on this computer"
+  edit user: "Edit user"
+  update_your_profile: "Update your profile"
+  the_form_contains: "The form contains:"
+  error: "errors"
+  user:
+    all: "All users"
+    delete:
+      confirm: "You sure?"

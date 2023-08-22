@@ -4,4 +4,5 @@ class ApplicationController < ActionController::Base
     I18n.locale = params[:locale] || I18n.default_locale
   end
   include SessionsHelper
+  include Pagy::Backend
 end
