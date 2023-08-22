@@ -15,3 +15,23 @@ vi:
         home: "Trang chủ"
         help: "Trợ giúp"
         log_in: "Đăng nhập"
+  sign_up: "Đăng ký"
+  create_my_account: "Tạo tài khoản"
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+  users: "Người dùng"
+  log_in: "Đăng nhập"
+  new_user?: "Người dùng mới?"
+  sign_up_now!: "Đăng ký tài khoản ngay nèo!"
+  invalid_email_password_combination: "Sai tên đăng nhập hoặc mật khẩu!"
+  account: "Tài khoản"
+  Log out: "Đăng xuất"
+  Log in: "Đăng nhập"
+
