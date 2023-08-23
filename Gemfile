@@ -50,6 +50,12 @@ gem "config"
 
 gem "bcrypt", "3.1.13"
 
+gem "pry", "~> 0.14.2"
+
+gem "faker"
+
+gem "pagy"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 

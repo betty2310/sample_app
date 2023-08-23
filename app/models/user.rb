@@ -9,6 +9,9 @@ class User < ApplicationRecord
             length: {maximum: Settings.validate.user.email.length.max},
             format: {with: VALID_EMAIL_REGEX},
             uniqueness: true
+  validates :password, presence: true,
+            length: {minimum: Settings.validate.user.password.length.min},
+            allow_nil: true
 
   before_save :downcase_email
 
@@ -22,7 +25,7 @@ class User < ApplicationRecord
              else
                BCrypt::Engine.cost
              end
-      BCrypt::Password.create string, cost
+      BCrypt::Password.create string, cost:
     end
 
     def new_token

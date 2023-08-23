@@ -26,7 +26,16 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
-  users: "Người dùng"
+  users:
+    update:
+      success: "Cập nhật thông tin thành công"
+    logged_in_user:
+      danger: "Hãy đăng nhập trước"
+    correct_user:
+      danger: "You can not edit this account"
+    destroy:
+      success: "Đã xoá người dùng"
+      danger: "Xoá người dùng thất bại"
   log_in: "Đăng nhập"
   new_user?: "Người dùng mới?"
   sign_up_now!: "Đăng ký tài khoản ngay nèo!"
@@ -35,4 +44,12 @@ vi:
   Log out: "Đăng xuất"
   Log in: "Đăng nhập"
   remember_me: "Lưu thông tin đăng nhập của tôi"
+  edit user: "Chỉnh sửa thông tin cá nhân"
+  update_your_profile: "Cập nhật thông tin cá nhân"
+  the_form_contains: "Có:"
+  error: "lỗi"
+  user:
+    all: "Tất cả người dùng"
+    delete:
+      confirm: "Bro chắc chưa?"
 
