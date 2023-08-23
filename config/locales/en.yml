@@ -26,8 +26,12 @@ en:
         email: "Email"
         password: "Password"
         password_confirmation: "Password confirmation"
-  users:
-    create:
-      success: "User created successful!"
-  the_form_contains: "The form contains:"
-  error: "error"
+  users: "Users"
+  log_in: "Login"
+  new_user?: "New user?"
+  sign_up_now!: "Sign up now!"
+  invalid_email_password_combination: "Wrong email or passoword!"
+  account: "Account"
+  Log out: "Log out"
+  Log in: "Log in"
+  remember_me: "Remember me on this computer"

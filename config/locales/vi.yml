@@ -26,9 +26,12 @@ vi:
         email: "Email"
         password: "Mật khẩu"
         password_confirmation: "Xác nhận mật khẩu"
-  users:
-    create:
-      success: "Tạo tài khoản thành công!"
-  the_form_contains: "Thông tin chứa:"
-  error: "lỗi"
-
+  users: "Người dùng"
+  log_in: "Đăng nhập"
+  new_user?: "Người dùng mới?"
+  sign_up_now!: "Đăng ký tài khoản ngay nèo!"
+  invalid_email_password_combination: "Sai tên đăng nhập hoặc mật khẩu!"
+  account: "Tài khoản"
+  Log out: "Đăng xuất"
+  Log in: "Đăng nhập"
+  remember_me: "Lưu thông tin đăng nhập của tôi"
