@@ -9,18 +9,24 @@ User.create!(name: "Admin",
              email: "admin@gmail.com",
              password: "123456",
              password_confirmation: "123456",
-             admin: true)
+             admin: true,
+             activated: true,
+             activated_at: Time.zone.now)
 User.create!(name: "Huynh Duong",
              email: "huynhduongsh1@gmail.com",
              password: "123456",
              password_confirmation: "123456",
-             admin: true)
-99.times do |n|
+             admin: true,
+             activated: true,
+             activated_at: Time.zone.now)
+98.times do |n|
   name = Faker::Name.name
   email = "example-#{n+1}@gmail.org"
   password = "123456"
   User.create!(name: name,
                email: email,
                password: password,
-               password_confirmation: password)
+               password_confirmation: password,
+               activated: true,
+               activated_at: Time.zone.now)
 end
