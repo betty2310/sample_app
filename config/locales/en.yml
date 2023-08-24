@@ -36,6 +36,11 @@ en:
     destroy:
       success: "User deleted"
       danger: "Delete fail!"
+    create:
+      info: "Please check your email to activate your account."
+    account_activation:
+      success: "Account activated!"
+      danger: "Invalid validation link"
   log_in: "Login"
   new_user?: "New user?"
   sign_up_now!: "Sign up now!"
@@ -52,3 +57,10 @@ en:
     all: "All users"
     delete:
       confirm: "You sure?"
+  user_mailer:
+    account_activation:
+      greeting: "Hi!"
+      subject: "Account Activation"
+      instruction: "Welcome to the Sample App! Click on the link below to activate your account:"
+    active: "Active"
+  account_not_activated: "Account not activated. Check your email for the activation link."

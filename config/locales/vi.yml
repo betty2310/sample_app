@@ -36,6 +36,11 @@ vi:
     destroy:
       success: "Đã xoá người dùng"
       danger: "Xoá người dùng thất bại"
+    create:
+      info: "Kiểm tra email để kích hoạt tài khoản sếp ơi"
+    account_activation:
+      success: "Kích hoạt tài khoản thành công"
+      danger: "Invalid validation link"
   log_in: "Đăng nhập"
   new_user?: "Người dùng mới?"
   sign_up_now!: "Đăng ký tài khoản ngay nèo!"
@@ -52,4 +57,11 @@ vi:
     all: "Tất cả người dùng"
     delete:
       confirm: "Bro chắc chưa?"
+  user_mailer:
+    account_activation:
+      greeting: "Xin chào!"
+      subject: "Kích hoạt tài khoản"
+      instruction: "Welcome to the Sample App! Click on the link below to activate your account:"
+    active: "Active"
+  account_not_activated: "Tài khoản chưa kích hoạt. Kiểm tra lại email để xem kính hoạt link"
 
