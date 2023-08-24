@@ -14,7 +14,7 @@ validate:
         hours: 2
 user:
   gravatar:
-    size: 50
+    size: 80
 pagy:
   items: 10
 

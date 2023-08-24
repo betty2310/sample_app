@@ -45,6 +45,7 @@ gem "bootsnap", require: false
 gem "rails-i18n"
 
 gem "bootstrap-sass", "3.4.1"
+gem "sassc-rails", "2.1.2"
 
 gem "config"
 
