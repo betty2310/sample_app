@@ -10,6 +10,8 @@ validate:
     password:
       length:
         min: 6
+      expire:
+        hours: 2
 user:
   gravatar:
     size: 50
