@@ -41,10 +41,14 @@ en:
     account_activation:
       success: "Account activated!"
       danger: "Invalid validation link"
+    not_found: "User not found!"
+    is_in_actived: "User is in activated"
+    password:
+      reset_expired: "Password reset has expired"
   log_in: "Login"
   new_user?: "New user?"
   sign_up_now!: "Sign up now!"
-  invalid_email_password_combination: "Wrong email or passoword!"
+  invalid_email_password_combination: "Wrong email or password!"
   account: "Account"
   Log out: "Log out"
   Log in: "Log in"
@@ -63,4 +67,15 @@ en:
       subject: "Account Activation"
       instruction: "Welcome to the Sample App! Click on the link below to activate your account:"
     active: "Active"
+    password_reset:
+      subject: "Password Reset"
+      expire: "This link will expire in two hours."
+      description: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+      instruction: "To reset your password click the link below:"
   account_not_activated: "Account not activated. Check your email for the activation link."
+  forgot_password: "forgot password"
+  password_reset_email_sent: "Email sent with password reset instructions"
+  email_not_found: "Email address not found"
+  button:
+    submit: "Submit"
+  password_has_been_reset: "Reset password success"
