@@ -1,0 +1,9 @@
+translations:
+  - file: "app/assets/javascripts/i18n/en.js"
+    prefix: "import I18n from 'i18n-js';\n"
+    pretty_print: true
+    only: "en.*"
+  - file: "app/assets/javascripts/i18n/vi.js"
+    prefix: "import I18n from 'i18n-js';\n"
+    pretty_print: true
+    only: "vi.*"

@@ -61,6 +61,7 @@ vi:
     all: "Tất cả người dùng"
     delete:
       confirm: "Bro chắc chưa?"
+    view_my_profile: "view my profile"
   user_mailer:
     account_activation:
       greeting: "Xin chào!"
@@ -79,4 +80,22 @@ vi:
   button:
     submit: "Submit"
   password_has_been_reset: "Reset password success"
-
+  micropost:
+    post: "micropost"
+    title: "Microposts"
+    posted_ago: "Posted %{time} ago"
+    created: "Micropost created!"
+    feed: "Micropost Feed"
+    not_found: "Micropost Invalid"
+    deleted: "Micropost deleted"
+    delete_fail: "Deleted fail!"
+    placeholder: "Compose new micropost..."
+    image_upload:
+      alert: "Maximum file size is 5MB. Please choose a smaller file."
+  delete: "xoá"
+  post: "Đăng"
+  validate:
+    micropost:
+      image:
+        content_type: "must be a valid image format"
+        size: "should be less than 5MB"
