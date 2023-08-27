@@ -1,4 +1,4 @@
-<%= form_with(model: @micropost) do |f| %>
+<%= form_with model: @micropost, data: { turbo: false } do |f| %>
   <%= render "shared/error_message", object: f.object %>
   <div class="field">
     <%= f.text_area :content, placeholder: t("micropost.placeholder") %>
