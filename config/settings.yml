@@ -21,12 +21,13 @@ micropost:
       max: 140
   image:
     content_type:
+      - image/jpg
       - image/jpeg
       - image/png
       - image/gif
     size:
       max: 5
-    resize: [500, 500]
+    resize: [200, 200]
 
 pagy:
   items: 10
