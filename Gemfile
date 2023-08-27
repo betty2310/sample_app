@@ -51,7 +51,7 @@ gem "sassc-rails", "2.1.2"
 gem "config"
 
 gem "bcrypt", "3.1.13"
-1
+
 gem "pry", "~> 0.14.2"
 
 gem "faker"

@@ -24,5 +24,8 @@ module RailsTutorial
     config.i18n.default_locale = Settings.default_locale.to_sym
 
     config.middleware.use I18n::JS::Middleware
+
+    config.action_view.embed_authenticity_token_in_remote_forms = true
+    config.action_view.form_with_generates_remote_forms = true
   end
 end

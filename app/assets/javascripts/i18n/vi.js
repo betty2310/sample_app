@@ -847,6 +847,13 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
   "password_reset_email_sent": "Kiểm tra email đi bro!",
   "post": "Đăng",
   "remember_me": "Lưu thông tin đăng nhập của tôi",
+  "shared": {
+    "stats": {
+      "followers": "followers",
+      "following": "following",
+      "microposts": "microposts"
+    }
+  },
   "sign_up": "Đăng ký",
   "sign_up_now!": "Đăng ký tài khoản ngay nèo!",
   "static_pages": {
@@ -923,6 +930,15 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
       "danger": "Xoá người dùng thất bại",
       "success": "Đã xoá người dùng"
     },
+    "follow": {
+      "title": "Follow"
+    },
+    "followers": {
+      "title": "Số người theo dõi"
+    },
+    "following": {
+      "title": "Đang theo dõi"
+    },
     "is_in_actived": "User is in activated",
     "logged_in_user": {
       "danger": "Hãy đăng nhập trước"
@@ -930,6 +946,9 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
     "not_found": "Không tìm thấy người dùng!",
     "password": {
       "reset_expired": "Password reset has expired"
+    },
+    "unfollow": {
+      "title": "Unfollow"
     },
     "update": {
       "success": "Cập nhật thông tin thành công"
