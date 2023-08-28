@@ -45,6 +45,14 @@ en:
     is_in_actived: "User is in activated"
     password:
       reset_expired: "Password reset has expired"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    follow:
+      title: "Follow"
+    unfollow:
+      title: "Unfollow"
   log_in: "Login"
   new_user?: "New user?"
   sign_up_now!: "Sign up now!"
@@ -99,3 +107,8 @@ en:
       image:
         content_type: "must be a valid image format"
         size: "should be less than 5MB"
+  shared:
+    stats:
+      following: "following"
+      followers: "followers"
+      microposts: "microposts"

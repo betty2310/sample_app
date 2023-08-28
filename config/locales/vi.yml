@@ -45,6 +45,14 @@ vi:
     is_in_actived: "User is in activated"
     password:
       reset_expired: "Password reset has expired"
+    following:
+      title: "Đang theo dõi"
+    followers:
+      title: "Số người theo dõi"
+    follow:
+      title: "Follow"
+    unfollow:
+      title: "Unfollow"
   log_in: "Đăng nhập"
   new_user?: "Người dùng mới?"
   sign_up_now!: "Đăng ký tài khoản ngay nèo!"
@@ -99,3 +107,8 @@ vi:
       image:
         content_type: "must be a valid image format"
         size: "should be less than 5MB"
+  shared:
+    stats:
+      following: "following"
+      followers: "followers"
+      microposts: "microposts"

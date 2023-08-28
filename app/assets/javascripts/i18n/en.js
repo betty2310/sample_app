@@ -77178,6 +77178,13 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
   "password_reset_email_sent": "Email sent with password reset instructions",
   "post": "Post",
   "remember_me": "Remember me on this computer",
+  "shared": {
+    "stats": {
+      "followers": "followers",
+      "following": "following",
+      "microposts": "microposts"
+    }
+  },
   "sign_up": "Sign up",
   "sign_up_now!": "Sign up now!",
   "static_pages": {
@@ -77255,6 +77262,15 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
       "danger": "Delete fail!",
       "success": "User deleted"
     },
+    "follow": {
+      "title": "Follow"
+    },
+    "followers": {
+      "title": "Followers"
+    },
+    "following": {
+      "title": "Following"
+    },
     "is_in_actived": "User is in activated",
     "logged_in_user": {
       "danger": "Please log in"
@@ -77262,6 +77278,9 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
     "not_found": "User not found!",
     "password": {
       "reset_expired": "Password reset has expired"
+    },
+    "unfollow": {
+      "title": "Unfollow"
     },
     "update": {
       "success": "Profile updated"
@@ -154454,6 +154473,13 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
   "password_reset_email_sent": "Email sent with password reset instructions",
   "post": "Post",
   "remember_me": "Remember me on this computer",
+  "shared": {
+    "stats": {
+      "followers": "followers",
+      "following": "following",
+      "microposts": "microposts"
+    }
+  },
   "sign_up": "Sign up",
   "sign_up_now!": "Sign up now!",
   "static_pages": {
@@ -154531,6 +154557,15 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
       "danger": "Delete fail!",
       "success": "User deleted"
     },
+    "follow": {
+      "title": "Follow"
+    },
+    "followers": {
+      "title": "Followers"
+    },
+    "following": {
+      "title": "Following"
+    },
     "is_in_actived": "User is in activated",
     "logged_in_user": {
       "danger": "Please log in"
@@ -154538,6 +154573,9 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
     "not_found": "User not found!",
     "password": {
       "reset_expired": "Password reset has expired"
+    },
+    "unfollow": {
+      "title": "Unfollow"
     },
     "update": {
       "success": "Profile updated"
